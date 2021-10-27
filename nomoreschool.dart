@@ -50,7 +50,7 @@ class Math {
     var answerRefactor = _answer
         .toString()
         .split(' ')
-        .join('')
+        .join(' ')
         .replaceAll(RegExp('[\\[\\]]'), "");
 
     // check length of the answer
